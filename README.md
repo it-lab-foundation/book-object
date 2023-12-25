@@ -1,5 +1,7 @@
 # 책 [오브젝트] 스터디
 
+<img src="https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791158391409.jpg" style="width: 160px;">
+
 ## 진행기간
 - 23년 12월 27일 ~ 24년 1월 24일
 
