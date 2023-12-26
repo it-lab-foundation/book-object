@@ -65,3 +65,5 @@ Study Helper
   - 학생은 폴더를 만들 수 있다.
   - 폴더는 공개여부를 설정할 수 있다.
   - 노트는 폴더에 저장 요청 할 수 있다.
+
+    ![image](https://github.com/it-lab-foundation/itlab-api/assets/45592236/df74ac37-8a06-492a-a5d8-58b25b13a670)
