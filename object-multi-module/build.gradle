@@ -37,3 +37,9 @@ project(':lyh-lotto') { // 컴파일 시 object-multi-module 로딩
     compileOnly project(':object-multi-module')
   }
 }
+
+project(':lyh-practice') { // 컴파일 시 object-multi-module 로딩
+  dependencies {
+    compileOnly project(':object-multi-module')
+  }
+}

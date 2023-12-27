@@ -1,2 +1,3 @@
 rootProject.name = "object-multi-module"
 include("lyh-lotto")
+include("lyh-practice")
