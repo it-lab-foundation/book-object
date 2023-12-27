@@ -1,0 +1,39 @@
+plugins {
+  id 'java'
+}
+
+subprojects {
+  group 'com.example'
+  version '1.0-SNAPSHOT'
+
+  repositories {
+    mavenCentral()
+  }
+
+  ext {
+    junitVersion = '5.9.2'
+  }
+
+  sourceCompatibility = '11'
+  targetCompatibility = '11'
+
+  tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+  }
+
+  dependencies {
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+  }
+
+  test {
+    useJUnitPlatform()
+  }
+}
+
+project(':lyh-lotto') { // 컴파일 시 object-multi-module 로딩
+  dependencies {
+    compileOnly project(':object-multi-module')
+  }
+}
